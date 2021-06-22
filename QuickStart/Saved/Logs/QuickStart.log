@@ -1066,3 +1066,68 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.06.22-20.29.20:229][  0]LogAssetRegistry: Asset discovery search completed in 5.1583 seconds
 [2021.06.22-20.29.20:231][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
 [2021.06.22-20.29.20:288][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.06.22-20.46.17:634][869]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.06.22-20.46.17:749][869]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.06.22-20.47.22:404][727]Running E:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="G:/Projects/Unreal Engine/Unreal-Engine-Learning/QuickStart/QuickStart.uproject" -game -rocket -progress
+[2021.06.22-20.47.23:111][727]Discovering modules, targets and source code for project...
+[2021.06.22-20.47.27:237][727]Binding IntelliSense data...
+[2021.06.22-20.47.34:408][727]Binding IntelliSense data... 100%
+[2021.06.22-20.47.34:509][727]Writing project files...
+[2021.06.22-20.47.42:766][727]Writing project files... 100%
+[2021.06.22-20.47.42:996][727]LogHotReload: Recompiling module QuickStart...
+[2021.06.22-20.47.43:016][727]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2021.06.22-20.47.43:069][727]Candidate modules for hot reload:
+[2021.06.22-20.47.43:069][727]  QuickStart
+[2021.06.22-20.47.43:069][727]Launching UnrealBuildTool... [E:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=QuickStart,8150 QuickStartEditor Win64 Development -Project="G:/Projects/Unreal Engine/Unreal-Engine-Learning/QuickStart/QuickStart.uproject" "G:/Projects/Unreal Engine/Unreal-Engine-Learning/QuickStart/QuickStart.uproject"  -IgnoreJunk]
+[2021.06.22-20.50.15:236][727]Using 'git status' to determine working set for adaptive non-unity build (G:\Projects\Unreal Engine\Unreal-Engine-Learning).
+Creating makefile for QuickStartEditor (no existing makefile)
+Parsing headers for QuickStartEditor
+  Running UnrealHeaderTool "G:\Projects\Unreal Engine\Unreal-Engine-Learning\QuickStart\QuickStart.uproject" "G:\Projects\Unreal Engine\Unreal-Engine-Learning\QuickStart\Intermediate\Build\Win64\QuickStartEditor\Development\QuickStartEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\alext\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+Reflection code generated for QuickStartEditor in 35.5491844 seconds
+Building QuickStartEditor...
+Using Visual Studio 2019 14.27.29111 toolchain (G:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Building 9 actions with 8 processes...
+  [1/9] Default.rc2
+  [2/9] SharedPCH.Engine.ShadowErrors.cpp
+  [3/9] QuickStart.cpp
+  [4/9] FloatingActor.cpp
+  [5/9] FloatingActor.gen.cpp
+  [6/9] QuickStart.init.gen.cpp
+  [7/9] UE4Editor-QuickStart-8150.lib
+     Creating library G:\Projects\Unreal Engine\Unreal-Engine-Learning\QuickStart\Intermediate\Build\Win64\UE4Editor\Development\QuickStart\UE4Editor-QuickStart-8150.lib and object G:\Projects\Unreal Engine\Unreal-Engine-Learning\QuickStart\Intermediate\Build\Win64\UE4Editor\Development\QuickStart\UE4Editor-QuickStart-8150.exp
+  [8/9] UE4Editor-QuickStart-8150.dll
+     Creating library G:\Projects\Unreal Engine\Unreal-Engine-Learning\QuickStart\Intermediate\Build\Win64\UE4Editor\Development\QuickStart\UE4Editor-QuickStart-8150.suppressed.lib and object G:\Projects\Unreal Engine\Unreal-Engine-Learning\QuickStart\Intermediate\Build\Win64\UE4Editor\Development\QuickStart\UE4Editor-QuickStart-8150.suppressed.exp
+  [9/9] QuickStartEditor.target
+Total time in Parallel executor: 69.14 seconds
+Total execution time: 152.06 seconds
+
+[2021.06.22-20.50.15:352][727]CompilerResultsLog: New page: Compilation - Jun 23, 2021, 12:50:15 AM
+[2021.06.22-20.50.15:390][727]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (G:\Projects\Unreal Engine\Unreal-Engine-Learning).
+[2021.06.22-20.50.15:390][727]CompilerResultsLog: Creating makefile for QuickStartEditor (no existing makefile)
+[2021.06.22-20.50.15:390][727]CompilerResultsLog: Parsing headers for QuickStartEditor
+[2021.06.22-20.50.15:390][727]CompilerResultsLog:   Running UnrealHeaderTool "G:\Projects\Unreal Engine\Unreal-Engine-Learning\QuickStart\QuickStart.uproject" "G:\Projects\Unreal Engine\Unreal-Engine-Learning\QuickStart\Intermediate\Build\Win64\QuickStartEditor\Development\QuickStartEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\alext\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.06.22-20.50.15:390][727]CompilerResultsLog: Reflection code generated for QuickStartEditor in 35.5491844 seconds
+[2021.06.22-20.50.15:390][727]CompilerResultsLog: Building QuickStartEditor...
+[2021.06.22-20.50.15:390][727]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (G:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.06.22-20.50.15:390][727]CompilerResultsLog: Building 9 actions with 8 processes...
+[2021.06.22-20.50.15:390][727]CompilerResultsLog:   [1/9] Default.rc2
+[2021.06.22-20.50.15:390][727]CompilerResultsLog:   [2/9] SharedPCH.Engine.ShadowErrors.cpp
+[2021.06.22-20.50.15:391][727]CompilerResultsLog:   [3/9] QuickStart.cpp
+[2021.06.22-20.50.15:391][727]CompilerResultsLog:   [4/9] FloatingActor.cpp
+[2021.06.22-20.50.15:391][727]CompilerResultsLog:   [5/9] FloatingActor.gen.cpp
+[2021.06.22-20.50.15:391][727]CompilerResultsLog:   [6/9] QuickStart.init.gen.cpp
+[2021.06.22-20.50.15:391][727]CompilerResultsLog:   [7/9] UE4Editor-QuickStart-8150.lib
+[2021.06.22-20.50.15:391][727]CompilerResultsLog:      Creating library G:\Projects\Unreal Engine\Unreal-Engine-Learning\QuickStart\Intermediate\Build\Win64\UE4Editor\Development\QuickStart\UE4Editor-QuickStart-8150.lib and object G:\Projects\Unreal Engine\Unreal-Engine-Learning\QuickStart\Intermediate\Build\Win64\UE4Editor\Development\QuickStart\UE4Editor-QuickStart-8150.exp
+[2021.06.22-20.50.15:391][727]CompilerResultsLog:   [8/9] UE4Editor-QuickStart-8150.dll
+[2021.06.22-20.50.15:391][727]CompilerResultsLog:      Creating library G:\Projects\Unreal Engine\Unreal-Engine-Learning\QuickStart\Intermediate\Build\Win64\UE4Editor\Development\QuickStart\UE4Editor-QuickStart-8150.suppressed.lib and object G:\Projects\Unreal Engine\Unreal-Engine-Learning\QuickStart\Intermediate\Build\Win64\UE4Editor\Development\QuickStart\UE4Editor-QuickStart-8150.suppressed.exp
+[2021.06.22-20.50.15:391][727]CompilerResultsLog:   [9/9] QuickStartEditor.target
+[2021.06.22-20.50.15:391][727]CompilerResultsLog: Total time in Parallel executor: 69.14 seconds
+[2021.06.22-20.50.15:391][727]CompilerResultsLog: Total execution time: 152.06 seconds
+[2021.06.22-20.50.15:431][727]LogMainFrame: MainFrame: Module compiling took 152.415 seconds
+[2021.06.22-20.50.15:466][727]Reloading module QuickStart after successful compile.
+[2021.06.22-20.50.15:485][727]LogClass: Could not find existing package /Script/QuickStart for HotReload of class FloatingActor, assuming a new package.
+[2021.06.22-20.50.15:487][727]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'QuickStart' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2021.06.22-20.50.15:494][727]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2021.06.22-20.50.15:688][727]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0099 seconds. Added 3602 classes and 861 folders.
+[2021.06.22-20.50.20:598][727]LogSlate: Window 'Add C++ Class' being destroyed
+[2021.06.22-20.50.22:532][730]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.

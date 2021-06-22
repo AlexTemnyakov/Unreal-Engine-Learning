@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"G:\\Projects\\Unreal Engine\\Unreal-Engine-Learning\\QuickStart\\Source\\QuickStart\\QuickStart.Build.cs",
+		"G:\\Projects\\Unreal Engine\\Unreal-Engine-Learning\\QuickStart\\Source\\QuickStart.Target.cs",
+		"G:\\Projects\\Unreal Engine\\Unreal-Engine-Learning\\QuickStart\\Source\\QuickStartEditor.Target.cs"
+	],
+	"EngineVersion": "4.26.2"
+}
