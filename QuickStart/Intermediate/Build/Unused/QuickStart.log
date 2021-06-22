@@ -1,0 +1,17 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (G:\Projects\Unreal Engine\Unreal-Engine-Learning).
+  Parsing headers for QuickStartEditor
+    Running UnrealHeaderTool "G:\Projects\Unreal Engine\Unreal-Engine-Learning\QuickStart\QuickStart.uproject" "G:\Projects\Unreal Engine\Unreal-Engine-Learning\QuickStart\Intermediate\Build\Win64\QuickStartEditor\Development\QuickStartEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\alext\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for QuickStartEditor in 56.0396966 seconds
+  Building QuickStartEditor...
+  Using Visual Studio 2019 14.27.29111 toolchain (G:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 6 actions with 8 processes...
+    [1/6] QuickStart.init.gen.cpp
+    [2/6] FloatingActor.gen.cpp
+    [3/6] FloatingActor.cpp
+    [4/6] UE4Editor-QuickStart-0002.lib
+       Creating library G:\Projects\Unreal Engine\Unreal-Engine-Learning\QuickStart\Intermediate\Build\Win64\UE4Editor\Development\QuickStart\UE4Editor-QuickStart-0002.lib and object G:\Projects\Unreal Engine\Unreal-Engine-Learning\QuickStart\Intermediate\Build\Win64\UE4Editor\Development\QuickStart\UE4Editor-QuickStart-0002.exp
+    [5/6] UE4Editor-QuickStart-0002.dll
+       Creating library G:\Projects\Unreal Engine\Unreal-Engine-Learning\QuickStart\Intermediate\Build\Win64\UE4Editor\Development\QuickStart\UE4Editor-QuickStart-0002.suppressed.lib and object G:\Projects\Unreal Engine\Unreal-Engine-Learning\QuickStart\Intermediate\Build\Win64\UE4Editor\Development\QuickStart\UE4Editor-QuickStart-0002.suppressed.exp
+    [6/6] QuickStartEditor.target
+  Total time in Parallel executor: 243.76 seconds
+  Total execution time: 310.03 seconds

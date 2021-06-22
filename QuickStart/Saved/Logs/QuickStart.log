@@ -1131,3 +1131,132 @@ Total execution time: 152.06 seconds
 [2021.06.22-20.50.15:688][727]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0099 seconds. Added 3602 classes and 861 folders.
 [2021.06.22-20.50.20:598][727]LogSlate: Window 'Add C++ Class' being destroyed
 [2021.06.22-20.50.22:532][730]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.06.22-21.48.56:771][599]LogEditor: Attempting to add actor of class 'FloatingActor' to level at -120.00,120.00,30.00
+[2021.06.22-21.49.00:806][952]LogEditor: Attempting to add actor of class 'FloatingActor' to level at -220.00,30.00,30.00
+[2021.06.22-21.49.11:852][ 92]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.06.22-21.49.45:273][122]LogEditor: Attempting to add actor of class 'FloatingActor' to level at 210.00,370.00,-90.00
+[2021.06.22-21.49.48:490][486]LogEditor: Attempting to add actor of class 'FloatingActor' to level at 150.00,-500.00,350.00
+[2021.06.22-21.49.49:696][626]LogEditor: Attempting to add actor of class 'FloatingActor' to level at 280.00,0.00,30.00
+[2021.06.22-21.49.50:522][684]LogUObjectHash: Compacting FUObjectHashTables data took   4.06ms
+[2021.06.22-21.49.50:817][684]LogSavePackage: Moving 'G:/Projects/Unreal Engine/Unreal-Engine-Learning/QuickStart/Saved/Minimal_Default_Auto1BC958C6A4206D1AF713713B6C7260B02.tmp' to 'G:/Projects/Unreal Engine/Unreal-Engine-Learning/QuickStart/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2021.06.22-21.49.50:855][684]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/StarterContent/Maps/Minimal_Default' took 0.388
+[2021.06.22-21.49.50:855][684]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.388
+[2021.06.22-21.50.20:892][ 62]Cmd: DELETE
+[2021.06.22-21.50.20:907][ 62]Cmd: ACTOR DELETE
+[2021.06.22-21.50.21:468][ 62]LogEditorActor: Deleted Actor: FloatingActor
+[2021.06.22-21.50.21:492][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2021.06.22-21.50.21:494][ 62]LogEditorActor: Deleted 1 Actors (0.131 secs)
+[2021.06.22-21.50.54:441][844]LogSlate: Window 'Plugins' being destroyed
+[2021.06.22-21.50.54:446][844]LogSlate: Window 'Plugins' being destroyed
+[2021.06.22-21.50.54:447][844]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2021.06.22-21.51.19:763][921]Candidate modules for hot reload:
+[2021.06.22-21.51.19:763][921]  QuickStart
+[2021.06.22-21.51.19:763][921]Launching UnrealBuildTool... [E:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=QuickStart,2580 QuickStartEditor Win64 Development -Project="G:/Projects/Unreal Engine/Unreal-Engine-Learning/QuickStart/QuickStart.uproject" "G:/Projects/Unreal Engine/Unreal-Engine-Learning/QuickStart/QuickStart.uproject"  -IgnoreJunk]
+[2021.06.22-21.51.19:765][921]Warning: Starting HotReload took  0.2s.
+[2021.06.22-21.51.25:400][241]CompilerResultsLog: New page: Compilation - Jun 23, 2021, 1:51:25 AM
+[2021.06.22-21.51.25:400][241]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (G:\Projects\Unreal Engine\Unreal-Engine-Learning).
+[2021.06.22-21.51.25:400][241]CompilerResultsLog: Building QuickStartEditor...
+[2021.06.22-21.51.25:400][241]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (G:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.06.22-21.51.25:400][241]CompilerResultsLog: Building 3 actions with 8 processes...
+[2021.06.22-21.51.25:400][241]CompilerResultsLog:   [1/3] UE4Editor-QuickStart-2580.lib
+[2021.06.22-21.51.25:400][241]CompilerResultsLog:      Creating library G:\Projects\Unreal Engine\Unreal-Engine-Learning\QuickStart\Intermediate\Build\Win64\UE4Editor\Development\QuickStart\UE4Editor-QuickStart-2580.lib and object G:\Projects\Unreal Engine\Unreal-Engine-Learning\QuickStart\Intermediate\Build\Win64\UE4Editor\Development\QuickStart\UE4Editor-QuickStart-2580.exp
+[2021.06.22-21.51.25:400][241]CompilerResultsLog:   [2/3] UE4Editor-QuickStart-2580.dll
+[2021.06.22-21.51.25:400][241]CompilerResultsLog:      Creating library G:\Projects\Unreal Engine\Unreal-Engine-Learning\QuickStart\Intermediate\Build\Win64\UE4Editor\Development\QuickStart\UE4Editor-QuickStart-2580.suppressed.lib and object G:\Projects\Unreal Engine\Unreal-Engine-Learning\QuickStart\Intermediate\Build\Win64\UE4Editor\Development\QuickStart\UE4Editor-QuickStart-2580.suppressed.exp
+[2021.06.22-21.51.25:400][241]CompilerResultsLog:   [3/3] QuickStartEditor.target
+[2021.06.22-21.51.25:400][241]CompilerResultsLog: Total time in Parallel executor: 4.04 seconds
+[2021.06.22-21.51.25:400][241]CompilerResultsLog: Total execution time: 5.32 seconds
+[2021.06.22-21.51.25:400][241]LogMainFrame: MainFrame: Module compiling took 5.641 seconds
+[2021.06.22-21.51.25:468][241]LogClass: Could not find existing class FloatingActor in package /Script/QuickStart for HotReload, assuming new class
+[2021.06.22-21.51.26:146][241]LogHotReload: Re-instancing FloatingActor after hot-reload.
+[2021.06.22-21.51.26:172][241]LogActor: Warning: FloatingActor /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FloatingActor_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2021.06.22-21.51.27:676][241]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'QuickStart' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2021.06.22-21.51.27:678][241]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.06.22-21.51.27:713][241]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0266 seconds. Added 3602 classes and 861 folders.
+[2021.06.22-21.51.27:713][241]Display: HotReload took  8.2s.
+[2021.06.22-21.51.28:512][243]LogActor: Warning: FloatingActor /Engine/Transient.World_2:PersistentLevel.FloatingActor_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2021.06.22-21.52.37:511][ 75]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.22-21.52.40:293][ 75]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.22-21.52.41:062][ 75]PIE: New page: PIE session: Minimal_Default (Jun 23, 2021, 1:52:40 AM)
+[2021.06.22-21.52.42:710][ 75]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.06.22-21.52.42:738][ 75]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.06.22-21.52.42:800][ 75]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.06.22-21.52.44:871][ 75]LogPlayLevel: PIE: StaticDuplicateObject took: (1.123310s)
+[2021.06.22-21.52.45:135][ 75]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.06.22-21.52.45:349][ 75]LogPlayLevel: PIE: World Init took: (0.477866s)
+[2021.06.22-21.52.45:349][ 75]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (2.548981s)
+[2021.06.22-21.52.45:628][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2021.06.22-21.52.46:312][ 75]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2021.06.22-21.52.46:312][ 75]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.22-21.52.46:312][ 75]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.22-21.52.46:312][ 75]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.22-21.52.46:312][ 75]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.22-21.52.46:312][ 75]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.22-21.52.46:312][ 75]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.22-21.52.46:312][ 75]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.22-21.52.46:312][ 75]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.22-21.52.46:313][ 75]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.22-21.52.46:313][ 75]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.22-21.52.46:501][ 75]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.22-21.52.46:501][ 75]LogAudioMixer: Display: 1: FrontRight
+[2021.06.22-21.52.46:520][ 75]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.06.22-21.52.46:521][ 75]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.22-21.52.46:585][ 75]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.22-21.52.46:585][ 75]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.22-21.52.46:588][ 75]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.22-21.52.46:588][ 75]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.22-21.52.46:588][ 75]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.22-21.52.46:672][ 75]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.22-21.52.46:672][ 75]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.22-21.52.46:672][ 75]LogInit: FAudioDevice initialized.
+[2021.06.22-21.52.46:672][ 75]LogAudio: Display: Audio Device (ID: 2) registered with world 'Minimal_Default'.
+[2021.06.22-21.52.49:150][ 75]LogLoad: Game class is 'GameModeBase'
+[2021.06.22-21.52.54:435][ 75]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 3) at 2021.06.22-23.52.54
+[2021.06.22-21.52.54:641][ 75]LogWorld: Bringing up level for play took: 0.200670
+[2021.06.22-21.52.54:895][ 75]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2021.06.22-21.53.03:981][ 75]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
+[2021.06.22-21.53.09:562][ 75]PIE: Server logged in
+[2021.06.22-21.53.09:616][ 75]PIE: Play in editor total start time 31.654 seconds.
+[2021.06.22-21.53.35:751][126]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.22-21.53.35:751][126]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.06.22-21.53.35:792][126]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2021.06.22-21.53.35:812][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.22-21.53.36:427][126]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.22-21.53.36:510][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.22-21.53.36:570][126]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.22-21.53.37:114][126]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.22-21.53.37:232][126]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.22-21.53.37:450][126]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.22-21.53.37:856][126]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2021.06.22-21.53.38:193][127]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2021.06.22-21.55.03:457][ 19]Candidate modules for hot reload:
+[2021.06.22-21.55.03:457][ 19]  QuickStart
+[2021.06.22-21.55.03:457][ 19]Launching UnrealBuildTool... [E:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=QuickStart,7879 QuickStartEditor Win64 Development -Project="G:/Projects/Unreal Engine/Unreal-Engine-Learning/QuickStart/QuickStart.uproject" "G:/Projects/Unreal Engine/Unreal-Engine-Learning/QuickStart/QuickStart.uproject"  -IgnoreJunk]
+[2021.06.22-21.55.03:459][ 19]Warning: Starting HotReload took  0.0s.
+[2021.06.22-21.56.04:875][372]CompilerResultsLog: New page: Compilation - Jun 23, 2021, 1:56:04 AM
+[2021.06.22-21.56.04:875][372]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (G:\Projects\Unreal Engine\Unreal-Engine-Learning).
+[2021.06.22-21.56.04:875][372]CompilerResultsLog: Parsing headers for QuickStartEditor
+[2021.06.22-21.56.04:875][372]CompilerResultsLog:   Running UnrealHeaderTool "G:\Projects\Unreal Engine\Unreal-Engine-Learning\QuickStart\QuickStart.uproject" "G:\Projects\Unreal Engine\Unreal-Engine-Learning\QuickStart\Intermediate\Build\Win64\QuickStartEditor\Development\QuickStartEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\alext\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.06.22-21.56.04:875][372]CompilerResultsLog: Reflection code generated for QuickStartEditor in 47.1984453 seconds
+[2021.06.22-21.56.04:875][372]CompilerResultsLog: Building QuickStartEditor...
+[2021.06.22-21.56.04:875][372]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (G:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.06.22-21.56.04:875][372]CompilerResultsLog: Building 6 actions with 8 processes...
+[2021.06.22-21.56.04:875][372]CompilerResultsLog:   [1/6] QuickStart.init.gen.cpp
+[2021.06.22-21.56.04:875][372]CompilerResultsLog:   [2/6] FloatingActor.cpp
+[2021.06.22-21.56.04:875][372]CompilerResultsLog:   [3/6] FloatingActor.gen.cpp
+[2021.06.22-21.56.04:875][372]CompilerResultsLog:   [4/6] UE4Editor-QuickStart-7879.lib
+[2021.06.22-21.56.04:875][372]CompilerResultsLog:      Creating library G:\Projects\Unreal Engine\Unreal-Engine-Learning\QuickStart\Intermediate\Build\Win64\UE4Editor\Development\QuickStart\UE4Editor-QuickStart-7879.lib and object G:\Projects\Unreal Engine\Unreal-Engine-Learning\QuickStart\Intermediate\Build\Win64\UE4Editor\Development\QuickStart\UE4Editor-QuickStart-7879.exp
+[2021.06.22-21.56.04:876][372]CompilerResultsLog:   [5/6] UE4Editor-QuickStart-7879.dll
+[2021.06.22-21.56.04:876][372]CompilerResultsLog:      Creating library G:\Projects\Unreal Engine\Unreal-Engine-Learning\QuickStart\Intermediate\Build\Win64\UE4Editor\Development\QuickStart\UE4Editor-QuickStart-7879.suppressed.lib and object G:\Projects\Unreal Engine\Unreal-Engine-Learning\QuickStart\Intermediate\Build\Win64\UE4Editor\Development\QuickStart\UE4Editor-QuickStart-7879.suppressed.exp
+[2021.06.22-21.56.04:876][372]CompilerResultsLog:   [6/6] QuickStartEditor.target
+[2021.06.22-21.56.04:876][372]CompilerResultsLog: Total time in Parallel executor: 12.68 seconds
+[2021.06.22-21.56.04:876][372]CompilerResultsLog: Total execution time: 60.80 seconds
+[2021.06.22-21.56.04:876][372]LogMainFrame: MainFrame: Module compiling took 61.424 seconds
+[2021.06.22-21.56.04:901][372]LogClass: Could not find existing class FloatingActor in package /Script/QuickStart for HotReload, assuming new class
+[2021.06.22-21.56.04:906][372]LogHotReload: Re-instancing FloatingActor after hot-reload.
+[2021.06.22-21.56.04:926][372]LogActor: Warning: FloatingActor /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FloatingActor_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2021.06.22-21.56.04:984][372]LogActor: Warning: FloatingActor /Engine/Transient.World_2:PersistentLevel.FloatingActor_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2021.06.22-21.56.05:007][372]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'QuickStart' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2021.06.22-21.56.05:009][372]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.06.22-21.56.05:026][372]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0124 seconds. Added 3602 classes and 861 folders.
+[2021.06.22-21.56.05:026][372]Display: HotReload took 61.6s.
+[2021.06.22-21.56.05:575][373]LogActor: Warning: FloatingActor /Engine/Transient.World_2:PersistentLevel.FloatingActor_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
