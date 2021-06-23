@@ -1703,3 +1703,11 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2021.06.23-10.25.29:544][612]AssetCheck: New page: Asset Save: multiple assets
 [2021.06.23-10.25.29:544][612]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData
 [2021.06.23-10.25.29:544][612]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2021.06.23-10.34.39:873][392]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.06.23-10.35.03:932][465]LogHttp: Warning: 00000679C3736400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0FB7686B-4DB2-8CE1-5E8B-EE9D853265DB%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=83f0c99043e351064f232389716a012c%7C8f641fd4b9884591b4fbe412900e1c2f%7C2a53ddc4-5788-484e-b75d-81c56ae9ec35&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.06.23-10.35.03:941][465]LogHttp: Warning: 00000679C3736400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.06.23-10.35.03:941][465]LogHttp: Warning: 00000679C3736400: libcurl info message cache 0 (Connection 0 seems to be dead!)
+[2021.06.23-10.35.03:941][465]LogHttp: Warning: 00000679C3736400: libcurl info message cache 1 (Closing connection 0)
+[2021.06.23-10.35.03:941][465]LogHttp: Warning: 00000679C3736400: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.06.23-10.35.03:941][465]LogHttp: Warning: 00000679C3736400: libcurl info message cache 3 (Closing connection 1)
+[2021.06.23-10.35.04:260][466]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0FB7686B-4DB2-8CE1-5E8B-EE9D853265DB%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=83f0c99043e351064f232389716a012c%7C8f641fd4b9884591b4fbe412900e1c2f%7C2a53ddc4-5788-484e-b75d-81c56ae9ec35&AppEnvironment=datacollector-binary&UploadType=eteventstream
