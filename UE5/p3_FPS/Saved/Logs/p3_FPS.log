@@ -1174,3 +1174,189 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2021.06.23-16.47.29:576][662]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
 [2021.06.23-16.47.29:598][663]LogPlayLevel: Display: Destroying online subsystem :Context_4
 [2021.06.23-16.47.32:722][919]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2021.06.23-17.09.50:755][ 14]LogHttp: Warning: 0000096D4CFDC800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCCF414E7-442A-8938-3EF9-878978ECE385%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=83f0c99043e351064f232389716a012c%7C8f641fd4b9884591b4fbe412900e1c2f%7C2a53ddc4-5788-484e-b75d-81c56ae9ec35&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.06.23-17.09.50:755][ 14]LogHttp: Warning: 0000096D4CFDC800: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2021.06.23-17.09.50:755][ 14]LogHttp: Warning: 0000096D4CFDC800: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x96d440a00c0 [can pipeline])
+[2021.06.23-17.09.50:755][ 14]LogHttp: Warning: 0000096D4CFDC800: libcurl info message cache 1 (Re-using existing connection! (#0) with host datarouter.ol.epicgames.com)
+[2021.06.23-17.09.50:755][ 14]LogHttp: Warning: 0000096D4CFDC800: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (18.204.137.157) port 443 (#0))
+[2021.06.23-17.09.50:755][ 14]LogHttp: Warning: 0000096D4CFDC800: libcurl info message cache 3 (We are completely uploaded and fine)
+[2021.06.23-17.09.50:755][ 14]LogHttp: Warning: 0000096D4CFDC800: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2021.06.23-17.09.50:755][ 14]LogHttp: Warning: 0000096D4CFDC800: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2021.06.23-17.09.50:756][ 14]LogHttp: Warning: 0000096D4CFDC800: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2021.06.23-17.09.50:756][ 14]LogHttp: Warning: 0000096D4CFDC800: libcurl info message cache 7 (Closing connection 0)
+[2021.06.23-17.09.50:772][ 14]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCCF414E7-442A-8938-3EF9-878978ECE385%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=83f0c99043e351064f232389716a012c%7C8f641fd4b9884591b4fbe412900e1c2f%7C2a53ddc4-5788-484e-b75d-81c56ae9ec35&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.06.23-17.52.21:707][606]LogAudioMixer: Resetting audio stream to device id 
+[2021.06.23-17.52.21:717][606]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.23-17.52.21:717][606]LogAudioMixer: Display: 1: FrontRight
+[2021.06.23-19.16.46:776][643]LogAudioMixer: Resetting audio stream to device id 
+[2021.06.23-19.16.46:796][643]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.23-19.16.46:796][643]LogAudioMixer: Display: 1: FrontRight
+[2021.06.23-19.16.46:861][644]LogHttp: Warning: 0000096D4CFDBE00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCCF414E7-442A-8938-3EF9-878978ECE385%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=83f0c99043e351064f232389716a012c%7C8f641fd4b9884591b4fbe412900e1c2f%7C2a53ddc4-5788-484e-b75d-81c56ae9ec35&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.06.23-19.16.46:861][644]LogHttp: Warning: 0000096D4CFDBE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.06.23-19.16.46:861][644]LogHttp: Warning: 0000096D4CFDBE00: libcurl info message cache 0 (Connection 1 seems to be dead!)
+[2021.06.23-19.16.46:861][644]LogHttp: Warning: 0000096D4CFDBE00: libcurl info message cache 1 (Closing connection 1)
+[2021.06.23-19.16.46:861][644]LogHttp: Warning: 0000096D4CFDBE00: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.06.23-19.16.46:861][644]LogHttp: Warning: 0000096D4CFDBE00: libcurl info message cache 3 (Closing connection 2)
+[2021.06.23-19.16.46:861][644]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCCF414E7-442A-8938-3EF9-878978ECE385%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=83f0c99043e351064f232389716a012c%7C8f641fd4b9884591b4fbe412900e1c2f%7C2a53ddc4-5788-484e-b75d-81c56ae9ec35&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.06.23-19.16.50:192][654]LogHttp: Warning: 0000096D4CFD2300: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCCF414E7-442A-8938-3EF9-878978ECE385%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=83f0c99043e351064f232389716a012c%7C8f641fd4b9884591b4fbe412900e1c2f%7C2a53ddc4-5788-484e-b75d-81c56ae9ec35&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.06.23-19.16.50:193][654]LogHttp: Warning: 0000096D4CFD2300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.06.23-19.16.50:193][654]LogHttp: Warning: 0000096D4CFD2300: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.06.23-19.16.50:193][654]LogHttp: Warning: 0000096D4CFD2300: libcurl info message cache 1 (Closing connection 3)
+[2021.06.23-19.16.50:193][654]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCCF414E7-442A-8938-3EF9-878978ECE385%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=83f0c99043e351064f232389716a012c%7C8f641fd4b9884591b4fbe412900e1c2f%7C2a53ddc4-5788-484e-b75d-81c56ae9ec35&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.06.23-20.57.12:795][595]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.06.23-20.57.12:796][595]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.06.23-20.57.23:356][471]LogSlateStyle: Warning: Unable to find Slate Widget Style 'NewClassDialog.ErrorLabelFont'. Using FTextBlockStyle defaults instead.
+[2021.06.23-20.57.23:356][471]LogSlateStyle: Warning: Unable to find Slate Widget Style 'NewClassDialog.ErrorLabelFont'. Using FTextBlockStyle defaults instead.
+[2021.06.23-20.57.44:722][205]Running E:/Program Files/Epic Games/UE_5.0EA/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -projectfiles -project="G:/Projects/Unreal Engine/Unreal-Engine-Learning/UE5/p3_FPS/p3_FPS.uproject" -game -rocket -progress
+[2021.06.23-20.57.45:786][205]
+[2021.06.23-20.57.45:786][205]Some Platforms were skipped due to invalid SDK setup: IOS, Android, Linux, LinuxAArch64.
+[2021.06.23-20.57.45:786][205]See the log file for detailed information (C:\Users\alext\AppData\Local\UnrealBuildTool\Log_GPF.txt)
+[2021.06.23-20.57.45:786][205]
+[2021.06.23-20.57.45:887][205]Discovering modules, targets and source code for project...
+[2021.06.23-20.57.52:139][205]Binding IntelliSense data...
+[2021.06.23-20.57.53:447][205]
+[2021.06.23-20.57.53:447][205]warning: Cannot find LibScePad_PS5 lib
+[2021.06.23-20.57.53:447][205]
+[2021.06.23-20.58.09:690][205]Binding IntelliSense data... 50%
+[2021.06.23-20.58.09:690][205]Binding IntelliSense data... 100%
+[2021.06.23-20.58.09:690][205]Writing project files...
+[2021.06.23-20.58.20:973][205]Writing project files... 67%
+[2021.06.23-20.58.20:973][205]Writing project files... 100%
+[2021.06.23-20.58.21:210][205]Candidate modules for hot reload:
+[2021.06.23-20.58.21:210][205]  p3_FPS
+[2021.06.23-20.58.21:210][205]Launching UnrealBuildTool... [E:/Program Files/Epic Games/UE_5.0EA/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=p3_FPS,1919 p3_FPSEditor Win64 Development -Project="G:/Projects/Unreal Engine/Unreal-Engine-Learning/UE5/p3_FPS/p3_FPS.uproject" "G:/Projects/Unreal Engine/Unreal-Engine-Learning/UE5/p3_FPS/p3_FPS.uproject"  -IgnoreJunk]
+[2021.06.23-21.01.20:987][205]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.06.23-21.01.20:987][205]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.06.23-21.01.32:234][205]CompilerResultsLog: New page: Compilation - Jun 24, 2021, 1:01:32 AM
+[2021.06.23-21.01.32:235][205]CompilerResultsLog: Win64 using Manual SDK 10.0.17763.0
+[2021.06.23-21.01.32:235][205]CompilerResultsLog: Creating makefile for p3_FPSEditor (no existing makefile)
+[2021.06.23-21.01.32:235][205]CompilerResultsLog: Parsing headers for p3_FPSEditor
+[2021.06.23-21.01.32:235][205]CompilerResultsLog:   Running UnrealHeaderTool "G:\Projects\Unreal Engine\Unreal-Engine-Learning\UE5\p3_FPS\p3_FPS.uproject" "G:\Projects\Unreal Engine\Unreal-Engine-Learning\UE5\p3_FPS\Intermediate\Build\Win64\p3_FPSEditor\Development\p3_FPSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\alext\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.06.23-21.01.32:235][205]CompilerResultsLog: Reflection code generated for p3_FPSEditor in 12.8863599 seconds
+[2021.06.23-21.01.32:235][205]CompilerResultsLog: Building p3_FPSEditor...
+[2021.06.23-21.01.32:235][205]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (G:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.06.23-21.01.32:235][205]CompilerResultsLog: [Adaptive Build] Excluded from p3_FPS unity file: FPSCharacter.cpp, p3_FPS.cpp, p3_FPSGameModeBase.cpp
+[2021.06.23-21.01.32:235][205]CompilerResultsLog: Building 9 actions with 8 processes...
+[2021.06.23-21.01.32:235][205]CompilerResultsLog:   [1/9] p3_FPSGameModeBase.cpp
+[2021.06.23-21.01.32:235][205]CompilerResultsLog:   [2/9] p3_FPSGameModeBase.gen.cpp
+[2021.06.23-21.01.32:235][205]CompilerResultsLog:   [3/9] p3_FPS.init.gen.cpp
+[2021.06.23-21.01.32:235][205]CompilerResultsLog:   [4/9] p3_FPS.cpp
+[2021.06.23-21.01.32:235][205]CompilerResultsLog:   [5/9] FPSCharacter.cpp
+[2021.06.23-21.01.32:235][205]CompilerResultsLog:   [6/9] FPSCharacter.gen.cpp
+[2021.06.23-21.01.32:235][205]CompilerResultsLog:   [7/9] UnrealEditor-p3_FPS-1919.lib
+[2021.06.23-21.01.32:235][205]CompilerResultsLog:      Creating library G:\Projects\Unreal Engine\Unreal-Engine-Learning\UE5\p3_FPS\Intermediate\Build\Win64\UnrealEditor\Development\p3_FPS\UnrealEditor-p3_FPS-1919.lib and object G:\Projects\Unreal Engine\Unreal-Engine-Learning\UE5\p3_FPS\Intermediate\Build\Win64\UnrealEditor\Development\p3_FPS\UnrealEditor-p3_FPS-1919.exp
+[2021.06.23-21.01.32:235][205]CompilerResultsLog:   [8/9] UnrealEditor-p3_FPS-1919.dll
+[2021.06.23-21.01.32:235][205]CompilerResultsLog:      Creating library G:\Projects\Unreal Engine\Unreal-Engine-Learning\UE5\p3_FPS\Intermediate\Build\Win64\UnrealEditor\Development\p3_FPS\UnrealEditor-p3_FPS-1919.suppressed.lib and object G:\Projects\Unreal Engine\Unreal-Engine-Learning\UE5\p3_FPS\Intermediate\Build\Win64\UnrealEditor\Development\p3_FPS\UnrealEditor-p3_FPS-1919.suppressed.exp
+[2021.06.23-21.01.32:235][205]CompilerResultsLog:   [9/9] p3_FPSEditor.target
+[2021.06.23-21.01.32:235][205]CompilerResultsLog: Total time in Parallel executor: 176.04 seconds
+[2021.06.23-21.01.32:235][205]CompilerResultsLog: Total execution time: 190.92 seconds
+[2021.06.23-21.01.32:235][205]LogMainFrame: MainFrame: Module compiling took 191.045 seconds
+[2021.06.23-21.01.32:786][205]LogClass: Could not find existing class FPSCharacter in package /Script/p3_FPS for HotReload, assuming new class
+[2021.06.23-21.01.33:307][205]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'p3_FPS' in 0.0012 seconds. Added 2 classes and 2 folders.
+[2021.06.23-21.01.33:312][205]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.06.23-21.01.34:371][205]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0226 seconds. Added 4366 classes and 995 folders.
+[2021.06.23-21.01.34:371][205]Display: HotReload took 193.2s.
+[2021.06.23-21.01.34:374][205]Warning: HotReload operation took 193.2s.
+[2021.06.23-21.01.34:845][205]LogSlate: Window 'Add C++ Class' being destroyed
+[2021.06.23-21.01.36:184][205]LogHotReload: New module detected: UnrealEditor-p3_FPS-1919.dll
+[2021.06.23-21.01.36:296][206]LogHotReload: Starting Hot-Reload from IDE
+[2021.06.23-21.01.36:349][206]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'p3_FPS' in 0.0004 seconds. Added 2 classes and 2 folders.
+[2021.06.23-21.01.36:355][206]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.06.23-21.01.36:419][206]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0134 seconds. Added 4366 classes and 995 folders.
+[2021.06.23-21.01.36:436][206]Display: HotReload took  0.1s.
+[2021.06.23-21.01.42:796][400]Candidate modules for hot reload:
+[2021.06.23-21.01.42:796][400]  p3_FPS
+[2021.06.23-21.01.42:796][400]Launching UnrealBuildTool... [E:/Program Files/Epic Games/UE_5.0EA/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=p3_FPS,4713 p3_FPSEditor Win64 Development -Project="G:/Projects/Unreal Engine/Unreal-Engine-Learning/UE5/p3_FPS/p3_FPS.uproject" "G:/Projects/Unreal Engine/Unreal-Engine-Learning/UE5/p3_FPS/p3_FPS.uproject"  -IgnoreJunk]
+[2021.06.23-21.01.42:798][400]Warning: Starting HotReload took  0.1s.
+[2021.06.23-21.01.49:484][523]CompilerResultsLog: New page: Compilation - Jun 24, 2021, 1:01:49 AM
+[2021.06.23-21.01.49:485][523]CompilerResultsLog: Win64 using Manual SDK 10.0.17763.0
+[2021.06.23-21.01.49:485][523]CompilerResultsLog: Invalidating makefile for p3_FPSEditor (FPSCharacter.cpp modified)
+[2021.06.23-21.01.49:485][523]CompilerResultsLog: Building p3_FPSEditor...
+[2021.06.23-21.01.49:485][523]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (G:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.06.23-21.01.49:485][523]CompilerResultsLog: [Adaptive Build] Excluded from p3_FPS unity file: FPSCharacter.cpp, p3_FPS.cpp, p3_FPSGameModeBase.cpp
+[2021.06.23-21.01.49:485][523]CompilerResultsLog: Building 4 actions with 8 processes...
+[2021.06.23-21.01.49:485][523]CompilerResultsLog:   [1/4] FPSCharacter.cpp
+[2021.06.23-21.01.49:485][523]CompilerResultsLog:   [2/4] UnrealEditor-p3_FPS-4713.lib
+[2021.06.23-21.01.49:485][523]CompilerResultsLog:      Creating library G:\Projects\Unreal Engine\Unreal-Engine-Learning\UE5\p3_FPS\Intermediate\Build\Win64\UnrealEditor\Development\p3_FPS\UnrealEditor-p3_FPS-4713.lib and object G:\Projects\Unreal Engine\Unreal-Engine-Learning\UE5\p3_FPS\Intermediate\Build\Win64\UnrealEditor\Development\p3_FPS\UnrealEditor-p3_FPS-4713.exp
+[2021.06.23-21.01.49:485][523]CompilerResultsLog:   [3/4] UnrealEditor-p3_FPS-4713.dll
+[2021.06.23-21.01.49:485][523]CompilerResultsLog:      Creating library G:\Projects\Unreal Engine\Unreal-Engine-Learning\UE5\p3_FPS\Intermediate\Build\Win64\UnrealEditor\Development\p3_FPS\UnrealEditor-p3_FPS-4713.suppressed.lib and object G:\Projects\Unreal Engine\Unreal-Engine-Learning\UE5\p3_FPS\Intermediate\Build\Win64\UnrealEditor\Development\p3_FPS\UnrealEditor-p3_FPS-4713.suppressed.exp
+[2021.06.23-21.01.49:485][523]CompilerResultsLog:   [4/4] p3_FPSEditor.target
+[2021.06.23-21.01.49:485][523]CompilerResultsLog: Total time in Parallel executor: 3.98 seconds
+[2021.06.23-21.01.49:485][523]CompilerResultsLog: Total execution time: 6.31 seconds
+[2021.06.23-21.01.49:485][523]LogMainFrame: MainFrame: Module compiling took 6.702 seconds
+[2021.06.23-21.01.49:601][523]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'p3_FPS' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2021.06.23-21.01.49:607][523]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.06.23-21.01.49:916][523]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0150 seconds. Added 4366 classes and 995 folders.
+[2021.06.23-21.01.49:917][523]Display: HotReload took  7.2s.
+[2021.06.23-21.02.38:491][314]LogSlateStyle: Warning: Unable to find Slate Widget Style 'NewClassDialog.ErrorLabelFont'. Using FTextBlockStyle defaults instead.
+[2021.06.23-21.02.38:491][314]LogSlateStyle: Warning: Unable to find Slate Widget Style 'NewClassDialog.ErrorLabelFont'. Using FTextBlockStyle defaults instead.
+[2021.06.23-21.02.49:402][949]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_FPSCharacter.BP_FPSCharacter
+[2021.06.23-21.02.49:939][949]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2021.06.23-21.02.58:725][ 99]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/CharacterMovementComponent_16.svg'. File could not be found
+[2021.06.23-21.03.05:443][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_FPSCharacter" FILE="G:/Projects/Unreal Engine/Unreal-Engine-Learning/UE5/p3_FPS/Content/Blueprints/BP_FPSCharacter.uasset" SILENT=true
+[2021.06.23-21.03.05:450][511]LogSavePackage: Moving 'G:/Projects/Unreal Engine/Unreal-Engine-Learning/UE5/p3_FPS/Saved/BP_FPSCharacter6460C07349F9CC78F93A9D98070E9CCB.tmp' to 'G:/Projects/Unreal Engine/Unreal-Engine-Learning/UE5/p3_FPS/Content/Blueprints/BP_FPSCharacter.uasset'
+[2021.06.23-21.03.05:468][511]AssetCheck: New page: Asset Save: BP_FPSCharacter
+[2021.06.23-21.03.05:468][511]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_FPSCharacter.BP_FPSCharacter
+[2021.06.23-21.03.10:302][829]LogSlate: Window 'BP_FPSCharacter' being destroyed
+[2021.06.23-21.03.10:320][829]LogSlate: Window 'BP_FPSCharacter' being destroyed
+[2021.06.23-21.03.10:348][829]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.06.23-21.03.10:348][829]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.23-21.03.23:832][292]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2021.06.23-21.03.35:118][377]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.06.23-21.03.39:377][745]LogSlate: Window 'Project Settings' being destroyed
+[2021.06.23-21.03.39:395][745]LogSlate: Window 'Project Settings' being destroyed
+[2021.06.23-21.03.48:718][923]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2021.06.23-21.03.48:725][923]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.23-21.03.48:725][923]PIE: New page: PIE session: FPSMap (Jun 24, 2021, 1:03:48 AM)
+[2021.06.23-21.03.48:748][923]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FPSMap
+[2021.06.23-21.03.48:813][923]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064890s)
+[2021.06.23-21.03.48:815][923]LogAIModule: Creating AISystem for world FPSMap
+[2021.06.23-21.03.48:815][923]LogPlayLevel: PIE: World Init took: (0.001843s)
+[2021.06.23-21.03.48:815][923]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FPSMap.FPSMap to /Game/Maps/UEDPIE_0_FPSMap.FPSMap (0.066945s)
+[2021.06.23-21.03.49:070][923]LogUObjectHash: Compacting FUObjectHashTables data took   6.68ms
+[2021.06.23-21.03.49:073][923]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2021.06.23-21.03.49:073][923]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.23-21.03.49:073][923]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.23-21.03.49:073][923]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.23-21.03.49:073][923]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.23-21.03.49:073][923]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.23-21.03.49:073][923]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.23-21.03.49:073][923]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.23-21.03.49:073][923]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.23-21.03.49:074][923]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.23-21.03.49:074][923]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.23-21.03.49:097][923]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.23-21.03.49:097][923]LogAudioMixer: Display: 1: FrontRight
+[2021.06.23-21.03.49:114][923]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.06.23-21.03.49:115][923]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.23-21.03.49:115][923]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.23-21.03.49:115][923]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.23-21.03.49:115][923]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.23-21.03.49:115][923]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.23-21.03.49:116][923]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.23-21.03.49:116][923]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.23-21.03.49:116][923]LogInit: FAudioDevice initialized.
+[2021.06.23-21.03.49:116][923]LogAudio: Display: Audio Device (ID: 4) registered with world 'FPSMap'.
+[2021.06.23-21.03.49:123][923]LogLoad: Game class is 'BP_FPSGameModeBase_C'
+[2021.06.23-21.03.49:123][923]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FPSMap.FPSMap up for play (max tick rate 0) at 2021.06.23-23.03.49
+[2021.06.23-21.03.49:123][923]LogWorld: Bringing up level for play took: 0.000573
+[2021.06.23-21.03.49:124][923]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2021.06.23-21.03.49:290][923]PIE: Server logged in
+[2021.06.23-21.03.49:291][923]PIE: Play in editor total start time 0.569 seconds.
+[2021.06.23-21.03.51:030][100]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.23-21.03.51:030][100]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FPSMap
+[2021.06.23-21.03.51:030][100]LogWorld: UWorld::CleanupWorld for FPSMap, bSessionEnded=true, bCleanupResources=true
+[2021.06.23-21.03.51:030][100]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.23-21.03.51:044][100]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.23-21.03.51:049][100]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.23-21.03.51:065][100]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.23-21.03.51:065][100]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.23-21.03.51:066][100]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.23-21.03.51:242][100]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2021.06.23-21.03.51:266][100]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2021.06.23-21.03.51:289][101]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2021.06.23-21.04.00:079][473]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2021.06.23-21.04.00:126][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_FPSGameModeBase" FILE="G:/Projects/Unreal Engine/Unreal-Engine-Learning/UE5/p3_FPS/Content/Blueprints/BP_FPSGameModeBase.uasset" SILENT=true
+[2021.06.23-21.04.00:130][473]LogSavePackage: Moving 'G:/Projects/Unreal Engine/Unreal-Engine-Learning/UE5/p3_FPS/Saved/BP_FPSGameModeBase88F2BD5140C8778ABED1E09BD28D0EBF.tmp' to 'G:/Projects/Unreal Engine/Unreal-Engine-Learning/UE5/p3_FPS/Content/Blueprints/BP_FPSGameModeBase.uasset'
+[2021.06.23-21.04.00:166][473]AssetCheck: New page: Asset Save: BP_FPSGameModeBase
+[2021.06.23-21.04.00:166][473]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_FPSGameModeBase.BP_FPSGameModeBase
