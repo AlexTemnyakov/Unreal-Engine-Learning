@@ -1,3 +1,0 @@
-G:\Projects\Unreal Engine\Unreal-Engine-Learning\UE5\p1_ControlledCameras\Intermediate\Build\Win64\UnrealEditor\Development\p1_ControlledCameras\Definitions.p1_ControlledCameras.h
-E:\Program Files\Epic Games\UE_5.0EA\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-E:\Program Files\Epic Games\UE_5.0EA\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h

@@ -1,2 +1,0 @@
-G:\Projects\Unreal Engine\Unreal-Engine-Learning\UE5\p1_ControlledCameras\Intermediate\Build\Win64\UnrealEditor\Development\p1_ControlledCameras\Definitions.p1_ControlledCameras.h
-G:\Projects\Unreal Engine\Unreal-Engine-Learning\UE5\p1_ControlledCameras\Source\p1_ControlledCameras\p1_ControlledCameras.h

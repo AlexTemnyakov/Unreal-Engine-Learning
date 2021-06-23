@@ -1,2 +1,0 @@
-G:\Projects\Unreal Engine\Unreal-Engine-Learning\QuickStart\Intermediate\Build\Win64\UE4Editor\Development\QuickStart\Definitions.QuickStart.h
-G:\Projects\Unreal Engine\Unreal-Engine-Learning\QuickStart\Source\QuickStart\QuickStart.h

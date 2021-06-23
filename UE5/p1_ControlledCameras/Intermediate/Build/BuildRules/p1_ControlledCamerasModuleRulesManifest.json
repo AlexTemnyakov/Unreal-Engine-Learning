@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"G:\\Projects\\Unreal Engine\\Unreal-Engine-Learning\\UE5\\p1_ControlledCameras\\Source\\p1_ControlledCameras\\p1_ControlledCameras.Build.cs",
-		"G:\\Projects\\Unreal Engine\\Unreal-Engine-Learning\\UE5\\p1_ControlledCameras\\Source\\p1_ControlledCameras.Target.cs",
-		"G:\\Projects\\Unreal Engine\\Unreal-Engine-Learning\\UE5\\p1_ControlledCameras\\Source\\p1_ControlledCamerasEditor.Target.cs"
-	],
-	"EngineVersion": "5.0.0"
-}
