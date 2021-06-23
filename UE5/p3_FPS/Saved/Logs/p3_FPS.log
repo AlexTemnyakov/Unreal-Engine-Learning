@@ -1183,3 +1183,206 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2021.06.23-23.14.12:540][187]Display: HotReload successful (5 functions remapped  0 scriptstructs remapped)
 [2021.06.23-23.14.12:661][187]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0160 seconds. Added 4367 classes and 995 folders.
 [2021.06.23-23.14.12:668][187]Display: HotReload took 41.8s.
+[2021.06.23-23.16.06:464][283]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2021.06.23-23.16.06:464][283]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2021.06.23-23.16.08:345][480]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2021.06.23-23.16.08:345][480]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2021.06.23-23.16.10:523][716]LogUObjectGlobals: Reloading 1 Package(s):
+	Asset Name: /Game/Blueprints/BP_FPSCharacter
+[2021.06.23-23.16.10:682][716]LogUObjectHash: Compacting FUObjectHashTables data took   4.15ms
+[2021.06.23-23.16.10:766][716]LogUObjectGlobals: Display: ReloadPackage failed to find a replacement object for 'Default__BP_FPSCharacter_C:CollisionCylinder.BodySetup_0' (transient) in the new package '/Game/Blueprints/BP_FPSCharacter'. Any existing references to this object will be nulled out.
+[2021.06.23-23.16.11:242][716]LogUObjectHash: Compacting FUObjectHashTables data took   3.70ms
+[2021.06.23-23.16.15:781][119]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2021.06.23-23.16.15:855][119]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.23-23.16.15:856][119]PIE: New page: PIE session: FPSMap (Jun 24, 2021, 3:16:15 AM)
+[2021.06.23-23.16.15:864][119]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.06.23-23.16.15:865][119]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.06.23-23.16.15:927][119]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FPSMap
+[2021.06.23-23.16.15:997][119]LogPlayLevel: PIE: StaticDuplicateObject took: (0.070491s)
+[2021.06.23-23.16.16:031][119]LogAIModule: Creating AISystem for world FPSMap
+[2021.06.23-23.16.16:032][119]LogPlayLevel: PIE: World Init took: (0.001545s)
+[2021.06.23-23.16.16:032][119]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FPSMap.FPSMap to /Game/Maps/UEDPIE_0_FPSMap.FPSMap (0.105406s)
+[2021.06.23-23.16.16:052][119]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2021.06.23-23.16.16:104][119]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2021.06.23-23.16.16:104][119]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.23-23.16.16:104][119]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.23-23.16.16:104][119]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.23-23.16.16:104][119]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.23-23.16.16:104][119]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.23-23.16.16:104][119]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.23-23.16.16:104][119]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.23-23.16.16:104][119]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.23-23.16.16:105][119]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.23-23.16.16:105][119]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.23-23.16.16:109][119]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.23-23.16.16:109][119]LogAudioMixer: Display: 1: FrontRight
+[2021.06.23-23.16.16:125][119]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.06.23-23.16.16:126][119]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.23-23.16.16:126][119]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.23-23.16.16:126][119]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.23-23.16.16:127][119]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.23-23.16.16:127][119]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.23-23.16.16:128][119]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.23-23.16.16:128][119]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.23-23.16.16:128][119]LogInit: FAudioDevice initialized.
+[2021.06.23-23.16.16:128][119]LogAudio: Display: Audio Device (ID: 2) registered with world 'FPSMap'.
+[2021.06.23-23.16.16:383][119]LogLoad: Game class is 'BP_FPSGameModeBase_C'
+[2021.06.23-23.16.16:392][119]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FPSMap.FPSMap up for play (max tick rate 0) at 2021.06.24-01.16.16
+[2021.06.23-23.16.16:446][119]LogWorld: Bringing up level for play took: 0.053543
+[2021.06.23-23.16.16:446][119]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.06.23-23.16.16:689][119]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2021.06.23-23.16.16:766][119]PIE: Server logged in
+[2021.06.23-23.16.16:768][119]PIE: Play in editor total start time 0.981 seconds.
+[2021.06.23-23.16.16:996][120]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/GameStateBase_16.svg'. File could not be found
+[2021.06.23-23.16.39:678][147]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.23-23.16.39:714][147]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FPSMap
+[2021.06.23-23.16.39:723][147]LogWorld: UWorld::CleanupWorld for FPSMap, bSessionEnded=true, bCleanupResources=true
+[2021.06.23-23.16.39:723][147]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.23-23.16.40:161][147]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.23-23.16.40:227][147]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.23-23.16.41:100][147]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.23-23.16.41:244][147]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.23-23.16.41:264][147]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.23-23.16.41:599][147]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.23-23.16.42:002][147]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2021.06.23-23.16.42:048][147]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2021.06.23-23.16.42:346][148]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.06.23-23.16.59:312][465]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2021.06.23-23.16.59:772][465]LogSlateStyle: Warning: Missing Resource from 'NiagaraEditorStyle' Style: 'Unable to find Color 'NiagaraEditor.AssetColors.EffectType'.'
+[2021.06.23-23.17.41:187][274]LogSlate: Window 'New Channel' being destroyed
+[2021.06.23-23.17.48:527][555]LogSlate: Window 'Edit Channel' being destroyed
+[2021.06.23-23.18.33:732][740]LogSlate: Window 'New Profile' being destroyed
+[2021.06.23-23.18.36:383][963]LogSlate: Window 'Project Settings' being destroyed
+[2021.06.23-23.18.36:403][963]LogSlate: Window 'Project Settings' being destroyed
+[2021.06.23-23.19.00:673][160]Candidate modules for hot reload:
+[2021.06.23-23.19.00:673][160]  p3_FPS
+[2021.06.23-23.19.00:673][160]Launching UnrealBuildTool... [E:/Program Files/Epic Games/UE_5.0EA/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=p3_FPS,4791 p3_FPSEditor Win64 Development -Project="G:/Projects/Unreal Engine/Unreal-Engine-Learning/UE5/p3_FPS/p3_FPS.uproject" "G:/Projects/Unreal Engine/Unreal-Engine-Learning/UE5/p3_FPS/p3_FPS.uproject"  -IgnoreJunk]
+[2021.06.23-23.19.00:675][160]Warning: Starting HotReload took  0.0s.
+[2021.06.23-23.19.08:425][418]CompilerResultsLog: New page: Compilation - Jun 24, 2021, 3:19:08 AM
+[2021.06.23-23.19.08:425][418]CompilerResultsLog: Win64 using Manual SDK 10.0.17763.0
+[2021.06.23-23.19.08:425][418]CompilerResultsLog: Invalidating makefile for p3_FPSEditor (FPSProjectile.cpp modified)
+[2021.06.23-23.19.08:425][418]CompilerResultsLog: Building p3_FPSEditor...
+[2021.06.23-23.19.08:425][418]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (G:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.06.23-23.19.08:425][418]CompilerResultsLog: [Adaptive Build] Excluded from p3_FPS unity file: FPSCharacter.cpp, FPSProjectile.cpp, p3_FPS.cpp, p3_FPSGameModeBase.cpp
+[2021.06.23-23.19.08:425][418]CompilerResultsLog: Building 4 actions with 8 processes...
+[2021.06.23-23.19.08:425][418]CompilerResultsLog:   [1/4] FPSProjectile.cpp
+[2021.06.23-23.19.08:425][418]CompilerResultsLog:   [2/4] UnrealEditor-p3_FPS-4791.lib
+[2021.06.23-23.19.08:426][418]CompilerResultsLog:      Creating library G:\Projects\Unreal Engine\Unreal-Engine-Learning\UE5\p3_FPS\Intermediate\Build\Win64\UnrealEditor\Development\p3_FPS\UnrealEditor-p3_FPS-4791.lib and object G:\Projects\Unreal Engine\Unreal-Engine-Learning\UE5\p3_FPS\Intermediate\Build\Win64\UnrealEditor\Development\p3_FPS\UnrealEditor-p3_FPS-4791.exp
+[2021.06.23-23.19.08:426][418]CompilerResultsLog:   [3/4] UnrealEditor-p3_FPS-4791.dll
+[2021.06.23-23.19.08:426][418]CompilerResultsLog:      Creating library G:\Projects\Unreal Engine\Unreal-Engine-Learning\UE5\p3_FPS\Intermediate\Build\Win64\UnrealEditor\Development\p3_FPS\UnrealEditor-p3_FPS-4791.suppressed.lib and object G:\Projects\Unreal Engine\Unreal-Engine-Learning\UE5\p3_FPS\Intermediate\Build\Win64\UnrealEditor\Development\p3_FPS\UnrealEditor-p3_FPS-4791.suppressed.exp
+[2021.06.23-23.19.08:426][418]CompilerResultsLog:   [4/4] p3_FPSEditor.target
+[2021.06.23-23.19.08:426][418]CompilerResultsLog: Total time in Parallel executor: 4.74 seconds
+[2021.06.23-23.19.08:426][418]CompilerResultsLog: Total execution time: 6.93 seconds
+[2021.06.23-23.19.08:426][418]LogMainFrame: MainFrame: Module compiling took 7.765 seconds
+[2021.06.23-23.19.08:814][418]LogHotReload: Re-instancing FPSProjectile after hot-reload.
+[2021.06.23-23.19.08:832][418]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'p3_FPS' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2021.06.23-23.19.08:837][418]Display: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2021.06.23-23.19.08:972][418]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0126 seconds. Added 4367 classes and 995 folders.
+[2021.06.23-23.19.08:977][418]Display: HotReload took  8.3s.
+[2021.06.23-23.20.26:147][973]Cmd: EDIT COPY
+[2021.06.23-23.20.27:184][973]Cmd: EDIT PASTE
+[2021.06.23-23.21.24:396][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   5.03ms
+[2021.06.23-23.21.24:459][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FPSMap" FILE="G:/Projects/Unreal Engine/Unreal-Engine-Learning/UE5/p3_FPS/Content/Maps/FPSMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.06.23-23.21.24:629][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2021.06.23-23.21.24:663][ 87]LogSavePackage: Moving 'G:/Projects/Unreal Engine/Unreal-Engine-Learning/UE5/p3_FPS/Saved/FPSMapB51909924414F87C0F6BD5BF13F24DE2.tmp' to 'G:/Projects/Unreal Engine/Unreal-Engine-Learning/UE5/p3_FPS/Content/Maps/FPSMap.umap'
+[2021.06.23-23.21.24:700][ 87]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Maps/FPSMap_BuiltData
+[2021.06.23-23.21.24:804][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FPSMap_BuiltData" FILE="G:/Projects/Unreal Engine/Unreal-Engine-Learning/UE5/p3_FPS/Content/Maps/FPSMap_BuiltData.uasset" SILENT=true
+[2021.06.23-23.21.25:143][ 87]LogSavePackage: Moving 'G:/Projects/Unreal Engine/Unreal-Engine-Learning/UE5/p3_FPS/Saved/FPSMap_BuiltDataA2E7D161432C0D1280A8B2B00A656E7E.tmp' to 'G:/Projects/Unreal Engine/Unreal-Engine-Learning/UE5/p3_FPS/Content/Maps/FPSMap_BuiltData.uasset'
+[2021.06.23-23.21.25:144][ 87]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Maps/FPSMap_BuiltData
+[2021.06.23-23.21.25:191][ 87]LogFileHelpers: Saving map 'FPSMap' took 0.685
+[2021.06.23-23.21.25:203][ 87]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.23-23.21.25:203][ 87]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/FPSMap_BuiltData.FPSMap_BuiltData
+[2021.06.23-23.21.25:203][ 87]LogContentValidation: Display: Validating World /Game/Maps/FPSMap.FPSMap
+[2021.06.23-23.21.25:957][164]Candidate modules for hot reload:
+[2021.06.23-23.21.25:957][164]  p3_FPS
+[2021.06.23-23.21.25:957][164]Launching UnrealBuildTool... [E:/Program Files/Epic Games/UE_5.0EA/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=p3_FPS,2414 p3_FPSEditor Win64 Development -Project="G:/Projects/Unreal Engine/Unreal-Engine-Learning/UE5/p3_FPS/p3_FPS.uproject" "G:/Projects/Unreal Engine/Unreal-Engine-Learning/UE5/p3_FPS/p3_FPS.uproject"  -IgnoreJunk]
+[2021.06.23-23.21.25:959][164]Warning: Starting HotReload took  0.0s.
+[2021.06.23-23.25.16:526][743]CompilerResultsLog: New page: Compilation - Jun 24, 2021, 3:25:16 AM
+[2021.06.23-23.25.16:526][743]CompilerResultsLog: Win64 using Manual SDK 10.0.17763.0
+[2021.06.23-23.25.16:526][743]CompilerResultsLog: Invalidating makefile for p3_FPSEditor (FPSProjectile.cpp modified)
+[2021.06.23-23.25.16:526][743]CompilerResultsLog: Parsing headers for p3_FPSEditor
+[2021.06.23-23.25.16:526][743]CompilerResultsLog:   Running UnrealHeaderTool "G:\Projects\Unreal Engine\Unreal-Engine-Learning\UE5\p3_FPS\p3_FPS.uproject" "G:\Projects\Unreal Engine\Unreal-Engine-Learning\UE5\p3_FPS\Intermediate\Build\Win64\p3_FPSEditor\Development\p3_FPSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\alext\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.06.23-23.25.16:526][743]CompilerResultsLog: Reflection code generated for p3_FPSEditor in 24.5899415 seconds
+[2021.06.23-23.25.16:526][743]CompilerResultsLog: Building p3_FPSEditor...
+[2021.06.23-23.25.16:526][743]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (G:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.06.23-23.25.16:526][743]CompilerResultsLog: [Adaptive Build] Excluded from p3_FPS unity file: FPSCharacter.cpp, FPSProjectile.cpp, p3_FPS.cpp, p3_FPSGameModeBase.cpp
+[2021.06.23-23.25.16:526][743]CompilerResultsLog: Building 8 actions with 8 processes...
+[2021.06.23-23.25.16:526][743]CompilerResultsLog:   [1/8] FPSProjectile.cpp
+[2021.06.23-23.25.16:526][743]CompilerResultsLog:   [2/8] p3_FPS.init.gen.cpp
+[2021.06.23-23.25.16:526][743]CompilerResultsLog:   [3/8] FPSProjectile.gen.cpp
+[2021.06.23-23.25.16:527][743]CompilerResultsLog:   [4/8] FPSCharacter.gen.cpp
+[2021.06.23-23.25.16:527][743]CompilerResultsLog:   [5/8] FPSCharacter.cpp
+[2021.06.23-23.25.16:527][743]CompilerResultsLog:   [6/8] UnrealEditor-p3_FPS-2414.lib
+[2021.06.23-23.25.16:527][743]CompilerResultsLog:      Creating library G:\Projects\Unreal Engine\Unreal-Engine-Learning\UE5\p3_FPS\Intermediate\Build\Win64\UnrealEditor\Development\p3_FPS\UnrealEditor-p3_FPS-2414.lib and object G:\Projects\Unreal Engine\Unreal-Engine-Learning\UE5\p3_FPS\Intermediate\Build\Win64\UnrealEditor\Development\p3_FPS\UnrealEditor-p3_FPS-2414.exp
+[2021.06.23-23.25.16:527][743]CompilerResultsLog:   [7/8] UnrealEditor-p3_FPS-2414.dll
+[2021.06.23-23.25.16:527][743]CompilerResultsLog:      Creating library G:\Projects\Unreal Engine\Unreal-Engine-Learning\UE5\p3_FPS\Intermediate\Build\Win64\UnrealEditor\Development\p3_FPS\UnrealEditor-p3_FPS-2414.suppressed.lib and object G:\Projects\Unreal Engine\Unreal-Engine-Learning\UE5\p3_FPS\Intermediate\Build\Win64\UnrealEditor\Development\p3_FPS\UnrealEditor-p3_FPS-2414.suppressed.exp
+[2021.06.23-23.25.16:527][743]CompilerResultsLog:   [8/8] p3_FPSEditor.target
+[2021.06.23-23.25.16:527][743]CompilerResultsLog: Total time in Parallel executor: 202.76 seconds
+[2021.06.23-23.25.16:527][743]CompilerResultsLog: Total execution time: 229.70 seconds
+[2021.06.23-23.25.16:527][743]LogMainFrame: MainFrame: Module compiling took 230.579 seconds
+[2021.06.23-23.25.16:571][743]LogClass: Could not find existing class FPSProjectile in package /Script/p3_FPS for HotReload, assuming new class
+[2021.06.23-23.25.16:589][743]LogClass: Function OnHit is new.
+[2021.06.23-23.25.16:612][743]LogHotReload: Re-instancing FPSProjectile after hot-reload.
+[2021.06.23-23.25.16:629][743]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'p3_FPS' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2021.06.23-23.25.16:634][743]Display: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2021.06.23-23.25.16:736][743]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0127 seconds. Added 4367 classes and 995 folders.
+[2021.06.23-23.25.16:743][743]Display: HotReload took 230.8s.
+[2021.06.23-23.25.24:919][ 86]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2021.06.23-23.25.24:919][ 86]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2021.06.23-23.25.26:271][189]LogUObjectGlobals: Reloading 1 Package(s):
+	Asset Name: /Game/Blueprints/BP_FPSCharacter
+[2021.06.23-23.25.26:393][189]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2021.06.23-23.25.26:404][189]LogUObjectGlobals: Display: ReloadPackage failed to find a replacement object for 'Default__BP_FPSCharacter_C:CollisionCylinder.BodySetup_0' (transient) in the new package '/Game/Blueprints/BP_FPSCharacter'. Any existing references to this object will be nulled out.
+[2021.06.23-23.25.26:691][189]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
+[2021.06.23-23.25.28:296][364]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2021.06.23-23.25.28:304][364]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.23-23.25.28:304][364]PIE: New page: PIE session: FPSMap (Jun 24, 2021, 3:25:28 AM)
+[2021.06.23-23.25.28:333][364]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FPSMap
+[2021.06.23-23.25.28:336][364]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002332s)
+[2021.06.23-23.25.28:337][364]LogAIModule: Creating AISystem for world FPSMap
+[2021.06.23-23.25.28:338][364]LogPlayLevel: PIE: World Init took: (0.002137s)
+[2021.06.23-23.25.28:338][364]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FPSMap.FPSMap to /Game/Maps/UEDPIE_0_FPSMap.FPSMap (0.004656s)
+[2021.06.23-23.25.28:353][364]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2021.06.23-23.25.28:355][364]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2021.06.23-23.25.28:356][364]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.23-23.25.28:356][364]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.23-23.25.28:356][364]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.23-23.25.28:356][364]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.23-23.25.28:356][364]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.23-23.25.28:356][364]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.23-23.25.28:356][364]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.23-23.25.28:356][364]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.23-23.25.28:356][364]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.23-23.25.28:356][364]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.23-23.25.28:382][364]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.23-23.25.28:382][364]LogAudioMixer: Display: 1: FrontRight
+[2021.06.23-23.25.28:395][364]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.06.23-23.25.28:396][364]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.23-23.25.28:397][364]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.23-23.25.28:397][364]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.23-23.25.28:397][364]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.23-23.25.28:397][364]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.23-23.25.28:398][364]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.23-23.25.28:398][364]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.23-23.25.28:398][364]LogInit: FAudioDevice initialized.
+[2021.06.23-23.25.28:398][364]LogAudio: Display: Audio Device (ID: 3) registered with world 'FPSMap'.
+[2021.06.23-23.25.28:409][364]LogLoad: Game class is 'BP_FPSGameModeBase_C'
+[2021.06.23-23.25.28:410][364]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FPSMap.FPSMap up for play (max tick rate 0) at 2021.06.24-01.25.28
+[2021.06.23-23.25.28:410][364]LogWorld: Bringing up level for play took: 0.000614
+[2021.06.23-23.25.28:410][364]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2021.06.23-23.25.28:412][364]PIE: Server logged in
+[2021.06.23-23.25.28:413][364]PIE: Play in editor total start time 0.112 seconds.
+[2021.06.23-23.25.34:205][922]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.23-23.25.34:205][922]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FPSMap
+[2021.06.23-23.25.34:205][922]LogWorld: UWorld::CleanupWorld for FPSMap, bSessionEnded=true, bCleanupResources=true
+[2021.06.23-23.25.34:205][922]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.23-23.25.34:221][922]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.23-23.25.34:225][922]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.23-23.25.34:240][922]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.23-23.25.34:240][922]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.23-23.25.34:241][922]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.23-23.25.34:271][922]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2021.06.23-23.25.34:288][922]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2021.06.23-23.25.34:310][923]LogPlayLevel: Display: Destroying online subsystem :Context_9
