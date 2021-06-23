@@ -1507,3 +1507,199 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2021.06.23-09.59.30:684][816]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
 [2021.06.23-09.59.30:696][816]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0119 seconds. Added 4365 classes and 995 folders.
 [2021.06.23-09.59.30:700][816]Display: HotReload took 36.3s.
+[2021.06.23-10.17.27:576][401]Candidate modules for hot reload:
+[2021.06.23-10.17.27:576][401]  p1_ControlledCameras
+[2021.06.23-10.17.27:576][401]Launching UnrealBuildTool... [E:/Program Files/Epic Games/UE_5.0EA/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=p1_ControlledCameras,0590 p1_ControlledCamerasEditor Win64 Development -Project="G:/Projects/Unreal Engine/Unreal-Engine-Learning/UE5/p1_ControlledCameras/p1_ControlledCameras.uproject" "G:/Projects/Unreal Engine/Unreal-Engine-Learning/UE5/p1_ControlledCameras/p1_ControlledCameras.uproject"  -IgnoreJunk]
+[2021.06.23-10.17.27:637][401]Warning: Starting HotReload took  0.1s.
+[2021.06.23-10.22.07:151][990]CompilerResultsLog: New page: Compilation - Jun 23, 2021, 2:22:07 PM
+[2021.06.23-10.22.07:151][990]CompilerResultsLog: Win64 using Manual SDK 10.0.17763.0
+[2021.06.23-10.22.07:151][990]CompilerResultsLog: Invalidating makefile for p1_ControlledCamerasEditor (CameraDirector.cpp modified)
+[2021.06.23-10.22.07:151][990]CompilerResultsLog: Parsing headers for p1_ControlledCamerasEditor
+[2021.06.23-10.22.07:151][990]CompilerResultsLog:   Running UnrealHeaderTool "G:\Projects\Unreal Engine\Unreal-Engine-Learning\UE5\p1_ControlledCameras\p1_ControlledCameras.uproject" "G:\Projects\Unreal Engine\Unreal-Engine-Learning\UE5\p1_ControlledCameras\Intermediate\Build\Win64\p1_ControlledCamerasEditor\Development\p1_ControlledCamerasEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\alext\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.06.23-10.22.07:151][990]CompilerResultsLog: Reflection code generated for p1_ControlledCamerasEditor in 31.9198248 seconds
+[2021.06.23-10.22.07:151][990]CompilerResultsLog: Building p1_ControlledCamerasEditor...
+[2021.06.23-10.22.07:151][990]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (G:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.06.23-10.22.07:151][990]CompilerResultsLog: [Adaptive Build] Excluded from p1_ControlledCameras unity file: CameraDirector.cpp, p1_ControlledCameras.cpp
+[2021.06.23-10.22.07:151][990]CompilerResultsLog: Building 6 actions with 8 processes...
+[2021.06.23-10.22.07:151][990]CompilerResultsLog:   [1/6] p1_ControlledCameras.init.gen.cpp
+[2021.06.23-10.22.07:151][990]CompilerResultsLog:   [2/6] CameraDirector.cpp
+[2021.06.23-10.22.07:151][990]CompilerResultsLog:   [3/6] CameraDirector.gen.cpp
+[2021.06.23-10.22.07:151][990]CompilerResultsLog:   [4/6] UnrealEditor-p1_ControlledCameras-0590.lib
+[2021.06.23-10.22.07:151][990]CompilerResultsLog:      Creating library G:\Projects\Unreal Engine\Unreal-Engine-Learning\UE5\p1_ControlledCameras\Intermediate\Build\Win64\UnrealEditor\Development\p1_ControlledCameras\UnrealEditor-p1_ControlledCameras-0590.lib and object G:\Projects\Unreal Engine\Unreal-Engine-Learning\UE5\p1_ControlledCameras\Intermediate\Build\Win64\UnrealEditor\Development\p1_ControlledCameras\UnrealEditor-p1_ControlledCameras-0590.exp
+[2021.06.23-10.22.07:151][990]CompilerResultsLog:   [5/6] UnrealEditor-p1_ControlledCameras-0590.dll
+[2021.06.23-10.22.07:151][990]CompilerResultsLog:      Creating library G:\Projects\Unreal Engine\Unreal-Engine-Learning\UE5\p1_ControlledCameras\Intermediate\Build\Win64\UnrealEditor\Development\p1_ControlledCameras\UnrealEditor-p1_ControlledCameras-0590.suppressed.lib and object G:\Projects\Unreal Engine\Unreal-Engine-Learning\UE5\p1_ControlledCameras\Intermediate\Build\Win64\UnrealEditor\Development\p1_ControlledCameras\UnrealEditor-p1_ControlledCameras-0590.suppressed.exp
+[2021.06.23-10.22.07:151][990]CompilerResultsLog:   [6/6] p1_ControlledCamerasEditor.target
+[2021.06.23-10.22.07:151][990]CompilerResultsLog: Total time in Parallel executor: 238.15 seconds
+[2021.06.23-10.22.07:151][990]CompilerResultsLog: Total execution time: 278.33 seconds
+[2021.06.23-10.22.07:151][990]LogMainFrame: MainFrame: Module compiling took 279.583 seconds
+[2021.06.23-10.22.07:177][990]LogClass: Could not find existing class CameraDirector in package /Script/p1_ControlledCameras for HotReload, assuming new class
+[2021.06.23-10.22.07:180][990]LogHotReload: Re-instancing CameraDirector after hot-reload.
+[2021.06.23-10.22.07:190][990]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'p1_ControlledCameras' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2021.06.23-10.22.07:194][990]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.06.23-10.22.07:209][990]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0153 seconds. Added 4365 classes and 995 folders.
+[2021.06.23-10.22.07:213][990]Display: HotReload took 279.7s.
+[2021.06.23-10.22.58:300][813]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2021.06.23-10.22.58:314][813]LogSavePackage: Moving 'G:/Projects/Unreal Engine/Unreal-Engine-Learning/UE5/p1_ControlledCameras/Saved/Minimal_Default_Auto2B047FC934D324D483A6BE1812C5B6B3C.tmp' to 'G:/Projects/Unreal Engine/Unreal-Engine-Learning/UE5/p1_ControlledCameras/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap'
+[2021.06.23-10.22.58:315][813]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/StarterContent/Maps/Minimal_Default' took 0.022
+[2021.06.23-10.22.58:315][813]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.022
+[2021.06.23-10.24.10:269][296]Candidate modules for hot reload:
+[2021.06.23-10.24.10:269][296]  p1_ControlledCameras
+[2021.06.23-10.24.10:269][296]Launching UnrealBuildTool... [E:/Program Files/Epic Games/UE_5.0EA/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=p1_ControlledCameras,5608 p1_ControlledCamerasEditor Win64 Development -Project="G:/Projects/Unreal Engine/Unreal-Engine-Learning/UE5/p1_ControlledCameras/p1_ControlledCameras.uproject" "G:/Projects/Unreal Engine/Unreal-Engine-Learning/UE5/p1_ControlledCameras/p1_ControlledCameras.uproject"  -IgnoreJunk]
+[2021.06.23-10.24.10:271][296]Warning: Starting HotReload took  0.0s.
+[2021.06.23-10.24.15:862][449]CompilerResultsLog: New page: Compilation - Jun 23, 2021, 2:24:15 PM
+[2021.06.23-10.24.15:862][449]CompilerResultsLog: Win64 using Manual SDK 10.0.17763.0
+[2021.06.23-10.24.15:862][449]CompilerResultsLog: Invalidating makefile for p1_ControlledCamerasEditor (CameraDirector.cpp modified)
+[2021.06.23-10.24.15:862][449]CompilerResultsLog: Building p1_ControlledCamerasEditor...
+[2021.06.23-10.24.15:862][449]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (G:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.06.23-10.24.15:862][449]CompilerResultsLog: [Adaptive Build] Excluded from p1_ControlledCameras unity file: CameraDirector.cpp, p1_ControlledCameras.cpp
+[2021.06.23-10.24.15:862][449]CompilerResultsLog: Building 4 actions with 8 processes...
+[2021.06.23-10.24.15:862][449]CompilerResultsLog:   [1/4] CameraDirector.cpp
+[2021.06.23-10.24.15:862][449]CompilerResultsLog:   [2/4] UnrealEditor-p1_ControlledCameras-5608.lib
+[2021.06.23-10.24.15:862][449]CompilerResultsLog:      Creating library G:\Projects\Unreal Engine\Unreal-Engine-Learning\UE5\p1_ControlledCameras\Intermediate\Build\Win64\UnrealEditor\Development\p1_ControlledCameras\UnrealEditor-p1_ControlledCameras-5608.lib and object G:\Projects\Unreal Engine\Unreal-Engine-Learning\UE5\p1_ControlledCameras\Intermediate\Build\Win64\UnrealEditor\Development\p1_ControlledCameras\UnrealEditor-p1_ControlledCameras-5608.exp
+[2021.06.23-10.24.15:862][449]CompilerResultsLog:   [3/4] UnrealEditor-p1_ControlledCameras-5608.dll
+[2021.06.23-10.24.15:862][449]CompilerResultsLog:      Creating library G:\Projects\Unreal Engine\Unreal-Engine-Learning\UE5\p1_ControlledCameras\Intermediate\Build\Win64\UnrealEditor\Development\p1_ControlledCameras\UnrealEditor-p1_ControlledCameras-5608.suppressed.lib and object G:\Projects\Unreal Engine\Unreal-Engine-Learning\UE5\p1_ControlledCameras\Intermediate\Build\Win64\UnrealEditor\Development\p1_ControlledCameras\UnrealEditor-p1_ControlledCameras-5608.suppressed.exp
+[2021.06.23-10.24.15:862][449]CompilerResultsLog:   [4/4] p1_ControlledCamerasEditor.target
+[2021.06.23-10.24.15:862][449]CompilerResultsLog: Total time in Parallel executor: 3.36 seconds
+[2021.06.23-10.24.15:862][449]CompilerResultsLog: Total execution time: 5.47 seconds
+[2021.06.23-10.24.15:862][449]LogMainFrame: MainFrame: Module compiling took 5.605 seconds
+[2021.06.23-10.24.15:892][449]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'p1_ControlledCameras' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2021.06.23-10.24.15:895][449]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.06.23-10.24.15:954][449]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0117 seconds. Added 4365 classes and 995 folders.
+[2021.06.23-10.24.15:957][449]Display: HotReload took  5.7s.
+[2021.06.23-10.24.34:649][197]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2021.06.23-10.24.34:657][197]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.23-10.24.34:657][197]PIE: New page: PIE session: Minimal_Default (Jun 23, 2021, 2:24:34 PM)
+[2021.06.23-10.24.34:658][197]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.06.23-10.24.34:664][197]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006594s)
+[2021.06.23-10.24.34:667][197]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.06.23-10.24.34:667][197]LogPlayLevel: PIE: World Init took: (0.002801s)
+[2021.06.23-10.24.34:667][197]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009617s)
+[2021.06.23-10.24.34:675][197]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2021.06.23-10.24.34:676][197]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2021.06.23-10.24.34:676][197]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.23-10.24.34:676][197]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.23-10.24.34:676][197]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.23-10.24.34:676][197]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.23-10.24.34:676][197]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.23-10.24.34:676][197]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.23-10.24.34:676][197]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.23-10.24.34:676][197]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.23-10.24.34:677][197]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.23-10.24.34:677][197]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.23-10.24.34:683][197]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.23-10.24.34:683][197]LogAudioMixer: Display: 1: FrontRight
+[2021.06.23-10.24.34:703][197]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.06.23-10.24.34:704][197]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.23-10.24.34:704][197]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.23-10.24.34:704][197]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.23-10.24.34:705][197]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.23-10.24.34:705][197]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.23-10.24.34:706][197]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.23-10.24.34:706][197]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.23-10.24.34:706][197]LogInit: FAudioDevice initialized.
+[2021.06.23-10.24.34:706][197]LogAudio: Display: Audio Device (ID: 7) registered with world 'Minimal_Default'.
+[2021.06.23-10.24.34:722][197]LogLoad: Game class is 'GameModeBase'
+[2021.06.23-10.24.34:723][197]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2021.06.23-12.24.34
+[2021.06.23-10.24.34:723][197]LogWorld: Bringing up level for play took: 0.001013
+[2021.06.23-10.24.34:724][197]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2021.06.23-10.24.34:726][197]LogTemp: Warning: The current camera number is 1, what is incorrect, because the total number of cameras is 3. Setting to 0.
+[2021.06.23-10.24.34:726][197]PIE: Server logged in
+[2021.06.23-10.24.34:727][197]PIE: Play in editor total start time 0.071 seconds.
+[2021.06.23-10.24.40:783][902]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.23-10.24.40:783][902]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.06.23-10.24.40:783][902]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2021.06.23-10.24.40:783][902]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.23-10.24.40:808][902]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.23-10.24.40:812][902]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.23-10.24.40:817][902]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.23-10.24.40:817][902]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.23-10.24.40:818][902]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.23-10.24.40:822][902]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2021.06.23-10.24.40:828][902]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2021.06.23-10.24.40:864][903]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2021.06.23-10.24.56:290][202]Candidate modules for hot reload:
+[2021.06.23-10.24.56:290][202]  p1_ControlledCameras
+[2021.06.23-10.24.56:290][202]Launching UnrealBuildTool... [E:/Program Files/Epic Games/UE_5.0EA/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=p1_ControlledCameras,0174 p1_ControlledCamerasEditor Win64 Development -Project="G:/Projects/Unreal Engine/Unreal-Engine-Learning/UE5/p1_ControlledCameras/p1_ControlledCameras.uproject" "G:/Projects/Unreal Engine/Unreal-Engine-Learning/UE5/p1_ControlledCameras/p1_ControlledCameras.uproject"  -IgnoreJunk]
+[2021.06.23-10.24.56:293][202]Warning: Starting HotReload took  0.0s.
+[2021.06.23-10.25.03:051][657]CompilerResultsLog: New page: Compilation - Jun 23, 2021, 2:25:03 PM
+[2021.06.23-10.25.03:051][657]CompilerResultsLog: Win64 using Manual SDK 10.0.17763.0
+[2021.06.23-10.25.03:051][657]CompilerResultsLog: Invalidating makefile for p1_ControlledCamerasEditor (CameraDirector.cpp modified)
+[2021.06.23-10.25.03:051][657]CompilerResultsLog: Building p1_ControlledCamerasEditor...
+[2021.06.23-10.25.03:051][657]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (G:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.06.23-10.25.03:051][657]CompilerResultsLog: [Adaptive Build] Excluded from p1_ControlledCameras unity file: CameraDirector.cpp, p1_ControlledCameras.cpp
+[2021.06.23-10.25.03:051][657]CompilerResultsLog: Building 4 actions with 8 processes...
+[2021.06.23-10.25.03:051][657]CompilerResultsLog:   [1/4] CameraDirector.cpp
+[2021.06.23-10.25.03:051][657]CompilerResultsLog:   [2/4] UnrealEditor-p1_ControlledCameras-0174.lib
+[2021.06.23-10.25.03:051][657]CompilerResultsLog:      Creating library G:\Projects\Unreal Engine\Unreal-Engine-Learning\UE5\p1_ControlledCameras\Intermediate\Build\Win64\UnrealEditor\Development\p1_ControlledCameras\UnrealEditor-p1_ControlledCameras-0174.lib and object G:\Projects\Unreal Engine\Unreal-Engine-Learning\UE5\p1_ControlledCameras\Intermediate\Build\Win64\UnrealEditor\Development\p1_ControlledCameras\UnrealEditor-p1_ControlledCameras-0174.exp
+[2021.06.23-10.25.03:051][657]CompilerResultsLog:   [3/4] UnrealEditor-p1_ControlledCameras-0174.dll
+[2021.06.23-10.25.03:051][657]CompilerResultsLog:      Creating library G:\Projects\Unreal Engine\Unreal-Engine-Learning\UE5\p1_ControlledCameras\Intermediate\Build\Win64\UnrealEditor\Development\p1_ControlledCameras\UnrealEditor-p1_ControlledCameras-0174.suppressed.lib and object G:\Projects\Unreal Engine\Unreal-Engine-Learning\UE5\p1_ControlledCameras\Intermediate\Build\Win64\UnrealEditor\Development\p1_ControlledCameras\UnrealEditor-p1_ControlledCameras-0174.suppressed.exp
+[2021.06.23-10.25.03:051][657]CompilerResultsLog:   [4/4] p1_ControlledCamerasEditor.target
+[2021.06.23-10.25.03:051][657]CompilerResultsLog: Total time in Parallel executor: 3.73 seconds
+[2021.06.23-10.25.03:051][657]CompilerResultsLog: Total execution time: 6.63 seconds
+[2021.06.23-10.25.03:052][657]LogMainFrame: MainFrame: Module compiling took 6.777 seconds
+[2021.06.23-10.25.03:077][657]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'p1_ControlledCameras' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2021.06.23-10.25.03:079][657]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.06.23-10.25.03:148][657]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0117 seconds. Added 4365 classes and 995 folders.
+[2021.06.23-10.25.03:150][657]Display: HotReload took  6.9s.
+[2021.06.23-10.25.07:228][ 76]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2021.06.23-10.25.07:234][ 76]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.23-10.25.07:234][ 76]PIE: New page: PIE session: Minimal_Default (Jun 23, 2021, 2:25:07 PM)
+[2021.06.23-10.25.07:234][ 76]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.06.23-10.25.07:238][ 76]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003917s)
+[2021.06.23-10.25.07:239][ 76]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.06.23-10.25.07:240][ 76]LogPlayLevel: PIE: World Init took: (0.002005s)
+[2021.06.23-10.25.07:240][ 76]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006053s)
+[2021.06.23-10.25.07:246][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2021.06.23-10.25.07:247][ 76]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2021.06.23-10.25.07:247][ 76]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.23-10.25.07:247][ 76]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.23-10.25.07:247][ 76]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.23-10.25.07:247][ 76]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.23-10.25.07:247][ 76]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.23-10.25.07:247][ 76]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.23-10.25.07:247][ 76]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.23-10.25.07:247][ 76]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.23-10.25.07:248][ 76]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.23-10.25.07:248][ 76]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.23-10.25.07:252][ 76]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.23-10.25.07:252][ 76]LogAudioMixer: Display: 1: FrontRight
+[2021.06.23-10.25.07:267][ 76]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.06.23-10.25.07:267][ 76]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.23-10.25.07:267][ 76]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.23-10.25.07:267][ 76]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.23-10.25.07:268][ 76]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.23-10.25.07:268][ 76]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.23-10.25.07:269][ 76]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.23-10.25.07:269][ 76]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.23-10.25.07:269][ 76]LogInit: FAudioDevice initialized.
+[2021.06.23-10.25.07:269][ 76]LogAudio: Display: Audio Device (ID: 8) registered with world 'Minimal_Default'.
+[2021.06.23-10.25.07:274][ 76]LogLoad: Game class is 'GameModeBase'
+[2021.06.23-10.25.07:275][ 76]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2021.06.23-12.25.07
+[2021.06.23-10.25.07:275][ 76]LogWorld: Bringing up level for play took: 0.001018
+[2021.06.23-10.25.07:275][ 76]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2021.06.23-10.25.07:277][ 76]PIE: Server logged in
+[2021.06.23-10.25.07:278][ 76]PIE: Play in editor total start time 0.045 seconds.
+[2021.06.23-10.25.25:782][270]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.23-10.25.25:782][270]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.06.23-10.25.25:783][270]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2021.06.23-10.25.25:783][270]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.23-10.25.25:807][270]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.23-10.25.25:812][270]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.23-10.25.25:817][270]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.23-10.25.25:817][270]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.23-10.25.25:819][270]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.23-10.25.25:823][270]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2021.06.23-10.25.25:829][270]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2021.06.23-10.25.25:867][272]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2021.06.23-10.25.29:392][612]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2021.06.23-10.25.29:441][612]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2021.06.23-10.25.29:484][612]LogSavePackage: Moving 'G:/Projects/Unreal Engine/Unreal-Engine-Learning/UE5/p1_ControlledCameras/Saved/Minimal_Default7F3E5BE4424B96D9158B6C8975EA7EAC.tmp' to 'G:/Projects/Unreal Engine/Unreal-Engine-Learning/UE5/p1_ControlledCameras/Content/StarterContent/Maps/Minimal_Default.umap'
+[2021.06.23-10.25.29:489][612]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2021.06.23-10.25.29:532][612]LogSavePackage: Moving 'G:/Projects/Unreal Engine/Unreal-Engine-Learning/UE5/p1_ControlledCameras/Saved/Minimal_Default_BuiltData743EDBA64CB13D4BC866728ABCEB0FF4.tmp' to 'G:/Projects/Unreal Engine/Unreal-Engine-Learning/UE5/p1_ControlledCameras/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2021.06.23-10.25.29:533][612]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2021.06.23-10.25.29:533][612]LogFileHelpers: Saving map 'Minimal_Default' took 0.097
+[2021.06.23-10.25.29:544][612]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.23-10.25.29:544][612]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData
+[2021.06.23-10.25.29:544][612]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default

@@ -32,18 +32,15 @@ void EmptyLinkFunctionForGeneratedCodeCameraDirector() {}
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_Cameras_Inner;
 #if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_CameraOne_MetaData[];
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_Cameras_MetaData[];
 #endif
-		static const UECodeGen_Private::FObjectPropertyParams NewProp_CameraOne;
+		static const UECodeGen_Private::FArrayPropertyParams NewProp_Cameras;
 #if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_CameraTwo_MetaData[];
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_currentCamera_MetaData[];
 #endif
-		static const UECodeGen_Private::FObjectPropertyParams NewProp_CameraTwo;
-#if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_CameraThree_MetaData[];
-#endif
-		static const UECodeGen_Private::FObjectPropertyParams NewProp_CameraThree;
+		static const UECodeGen_Private::FUnsizedIntPropertyParams NewProp_currentCamera;
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_TimeBetweenCameraChanges_MetaData[];
 #endif
@@ -66,33 +63,25 @@ void EmptyLinkFunctionForGeneratedCodeCameraDirector() {}
 		{ "ModuleRelativePath", "CameraDirector.h" },
 	};
 #endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACameraDirector_Statics::NewProp_Cameras_Inner = { "Cameras", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACameraDirector_Statics::NewProp_CameraOne_MetaData[] = {
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACameraDirector_Statics::NewProp_Cameras_MetaData[] = {
 		{ "Category", "CameraDirector" },
 		{ "ModuleRelativePath", "CameraDirector.h" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACameraDirector_Statics::NewProp_CameraOne = { "CameraOne", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACameraDirector, CameraOne), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACameraDirector_Statics::NewProp_CameraOne_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACameraDirector_Statics::NewProp_CameraOne_MetaData)) };
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_ACameraDirector_Statics::NewProp_Cameras = { "Cameras", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACameraDirector, Cameras), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_ACameraDirector_Statics::NewProp_Cameras_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACameraDirector_Statics::NewProp_Cameras_MetaData)) };
 #if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACameraDirector_Statics::NewProp_CameraTwo_MetaData[] = {
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACameraDirector_Statics::NewProp_currentCamera_MetaData[] = {
 		{ "Category", "CameraDirector" },
 		{ "ModuleRelativePath", "CameraDirector.h" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACameraDirector_Statics::NewProp_CameraTwo = { "CameraTwo", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACameraDirector, CameraTwo), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACameraDirector_Statics::NewProp_CameraTwo_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACameraDirector_Statics::NewProp_CameraTwo_MetaData)) };
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACameraDirector_Statics::NewProp_CameraThree_MetaData[] = {
-		{ "Category", "CameraDirector" },
-		{ "ModuleRelativePath", "CameraDirector.h" },
-	};
-#endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACameraDirector_Statics::NewProp_CameraThree = { "CameraThree", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACameraDirector, CameraThree), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACameraDirector_Statics::NewProp_CameraThree_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACameraDirector_Statics::NewProp_CameraThree_MetaData)) };
+	const UECodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ACameraDirector_Statics::NewProp_currentCamera = { "currentCamera", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACameraDirector, currentCamera), METADATA_PARAMS(Z_Construct_UClass_ACameraDirector_Statics::NewProp_currentCamera_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACameraDirector_Statics::NewProp_currentCamera_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACameraDirector_Statics::NewProp_TimeBetweenCameraChanges_MetaData[] = {
 		{ "Category", "CameraDirector" },
-		{ "Comment", "/*UPROPERTY(EditAnywhere)\n\x09TArray<AActor*> Cameras;\n\n\x09UPROPERTY(EditAnywhere)\n\x09int currentCamera;*/" },
 		{ "ModuleRelativePath", "CameraDirector.h" },
-		{ "ToolTip", "UPROPERTY(EditAnywhere)\n       TArray<AActor*> Cameras;\n\n       UPROPERTY(EditAnywhere)\n       int currentCamera;" },
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ACameraDirector_Statics::NewProp_TimeBetweenCameraChanges = { "TimeBetweenCameraChanges", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACameraDirector, TimeBetweenCameraChanges), METADATA_PARAMS(Z_Construct_UClass_ACameraDirector_Statics::NewProp_TimeBetweenCameraChanges_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACameraDirector_Statics::NewProp_TimeBetweenCameraChanges_MetaData)) };
@@ -104,9 +93,9 @@ void EmptyLinkFunctionForGeneratedCodeCameraDirector() {}
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ACameraDirector_Statics::NewProp_SmoothBlendTime = { "SmoothBlendTime", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACameraDirector, SmoothBlendTime), METADATA_PARAMS(Z_Construct_UClass_ACameraDirector_Statics::NewProp_SmoothBlendTime_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACameraDirector_Statics::NewProp_SmoothBlendTime_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACameraDirector_Statics::PropPointers[] = {
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACameraDirector_Statics::NewProp_CameraOne,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACameraDirector_Statics::NewProp_CameraTwo,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACameraDirector_Statics::NewProp_CameraThree,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACameraDirector_Statics::NewProp_Cameras_Inner,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACameraDirector_Statics::NewProp_Cameras,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACameraDirector_Statics::NewProp_currentCamera,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACameraDirector_Statics::NewProp_TimeBetweenCameraChanges,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACameraDirector_Statics::NewProp_SmoothBlendTime,
 	};
@@ -137,7 +126,7 @@ void EmptyLinkFunctionForGeneratedCodeCameraDirector() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACameraDirector, 1503445576);
+	IMPLEMENT_CLASS(ACameraDirector, 2901202483);
 	template<> P1_CONTROLLEDCAMERAS_API UClass* StaticClass<ACameraDirector>()
 	{
 		return ACameraDirector::StaticClass();

@@ -59,9 +59,8 @@ public: \
 
 
 #define p1_ControlledCameras_Source_p1_ControlledCameras_CameraDirector_h_12_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__CameraOne() { return STRUCT_OFFSET(ACameraDirector, CameraOne); } \
-	FORCEINLINE static uint32 __PPO__CameraTwo() { return STRUCT_OFFSET(ACameraDirector, CameraTwo); } \
-	FORCEINLINE static uint32 __PPO__CameraThree() { return STRUCT_OFFSET(ACameraDirector, CameraThree); } \
+	FORCEINLINE static uint32 __PPO__Cameras() { return STRUCT_OFFSET(ACameraDirector, Cameras); } \
+	FORCEINLINE static uint32 __PPO__currentCamera() { return STRUCT_OFFSET(ACameraDirector, currentCamera); } \
 	FORCEINLINE static uint32 __PPO__TimeBetweenCameraChanges() { return STRUCT_OFFSET(ACameraDirector, TimeBetweenCameraChanges); } \
 	FORCEINLINE static uint32 __PPO__SmoothBlendTime() { return STRUCT_OFFSET(ACameraDirector, SmoothBlendTime); }
 

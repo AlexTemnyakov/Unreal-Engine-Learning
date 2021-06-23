@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodep1_ControlledCameras_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x3DD8B7F8,
+				0x07E03F1A,
 				0x07D746E2,
 				METADATA_PARAMS(nullptr, 0)
 			};
