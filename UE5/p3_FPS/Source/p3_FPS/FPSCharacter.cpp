@@ -26,20 +26,6 @@ AFPSCharacter::AFPSCharacter()
 	GetMesh()->SetOwnerNoSee(true);
 
 	GetMesh()->SetupAttachment(FPSCameraComponent);
-
-	// Create a first person mesh component for the owning player.
-	FPSMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("FirstPersonMesh"));
-	check(FPSMesh != nullptr);
-
-	// Only the owning player sees this mesh.
-	FPSMesh->SetOnlyOwnerSee(true);
-
-	// Attach the FPS mesh to the FPS camera.
-	FPSMesh->SetupAttachment(FPSCameraComponent);
-
-	// Disable some environmental shadows to preserve the illusion of having a single mesh.
-	FPSMesh->bCastDynamicShadow = false;
-	FPSMesh->CastShadow = false;	
 }
 
 // Called when the game starts or when spawned
