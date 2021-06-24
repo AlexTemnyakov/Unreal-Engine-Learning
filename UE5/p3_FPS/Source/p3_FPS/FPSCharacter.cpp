@@ -17,7 +17,8 @@ AFPSCharacter::AFPSCharacter()
 	FPSCameraComponent->SetupAttachment(CastChecked<USceneComponent, UCapsuleComponent>(GetCapsuleComponent()));
 
 	// Position the camera slightly above the eyes.
-	FPSCameraComponent->SetRelativeLocation(FVector(0.0f, 0.0f, 50.0f + BaseEyeHeight));
+	FPSCameraComponent->SetRelativeLocation(FVector(-100.0f, 0.0f, 50.0f + BaseEyeHeight));
+	FPSCameraComponent->SetRelativeRotation(FRotator(-30.0f, 0.0f, 0.0f));
 
 	// Enable the pawn to control camera rotation.
 	FPSCameraComponent->bUsePawnControlRotation = true;
@@ -25,7 +26,7 @@ AFPSCharacter::AFPSCharacter()
 	// The owning player doesn't see the regular (third-person) body mesh.
 	GetMesh()->SetOwnerNoSee(true);
 
-	GetMesh()->SetupAttachment(FPSCameraComponent);
+	//GetMesh()->SetupAttachment(FPSCameraComponent);
 }
 
 // Called when the game starts or when spawned
